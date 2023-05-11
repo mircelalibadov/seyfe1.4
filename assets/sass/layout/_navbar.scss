@@ -1,0 +1,127 @@
+.modern {
+    background-color: #32334C;
+
+    nav {
+        max-width: 1440px;
+        margin: auto;
+
+        height: 100px;
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+            list-style: none;
+
+            li {
+                margin-left: 40px;
+                color: azure;
+                font-size: 16px;
+            }
+        }
+
+        justify-content: space-around;
+
+        h1 {
+            color: white;
+        }
+
+        button {
+            height: 48px;
+            border-radius: 6px;
+            color: white;
+            background-color: #32334C;
+            border: 1px solid whitesmoke;
+            width: 138px;
+        }
+
+        .btn {
+            display: none;
+        }
+
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 30px;
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+            ul {
+                display: none;
+            }
+
+            button {
+                display: none;
+            }
+
+            .btn {
+                display: block;
+                width: 48px;
+                height: 48px;
+
+
+            }
+        }
+    }
+}
+
+.studio {
+    display: flex;
+    justify-content: space-around;
+    background-color: #32334C;
+    max-width: 1440px;
+    margin: auto;
+
+    div {
+
+        h6 {
+            color: #EF6D58;
+            font-size: 16px;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 72px;
+            color: white;
+            padding: 20px;
+        }
+
+        p {
+            color: whitesmoke;
+            padding: 20px;
+        }
+
+        .btn1 {
+            background-color: #EF6D58;
+            border-radius: 6px;
+            width: 150px;
+            height: 50px;
+            color: white;
+
+
+        }
+
+        .btn2 {
+            border-radius: 6px;
+            border: 0px solid;
+            width: 150px;
+            height: 50px;
+            background-color: #32334C;
+            color: white;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+
+        display: flex;
+        padding: 30px;
+        flex-direction: column-reverse;
+
+
+
+    }
+
+
+}
